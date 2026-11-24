@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="de" data-lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Einkaufsheld – Wochenplan &amp; Einkaufsliste</title><link rel="icon" type="image/png" href="favicon-32.png"><link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="theme-color" content="#21a061">
+<style>:root{--g:#21a061;--bg:#f5f7fb;--t:#111827}*{box-sizing:border-box}body{margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--t);line-height:1.6}
+main{max-width:760px;margin:0 auto;padding:24px 20px 60px}header{display:flex;align-items:center;gap:12px;margin-bottom:24px}header img{width:48px;height:48px;border-radius:11px}
+header a.home{color:var(--t);text-decoration:none;font-weight:800;font-size:22px;flex:1}.lang{display:flex;border:2px solid var(--g);border-radius:999px;overflow:hidden}
+.lang button{border:0;background:transparent;color:var(--g);font-weight:800;padding:6px 12px;cursor:pointer}html[data-lang=de] .lang [data-set=de],html[data-lang=en] .lang [data-set=en]{background:var(--g);color:#fff}
+html[data-lang=de] [data-l=en],html[data-lang=en] [data-l=de]{display:none!important}h1{font-size:30px;margin:.2em 0 .4em}h2{font-size:19px;margin-top:2em;color:var(--g)}a{color:var(--g)}
+footer{margin-top:48px;font-size:14px;opacity:.75}.hero{text-align:center;padding:24px 0 40px}.hero img{width:140px;height:140px;border-radius:32px;box-shadow:0 10px 24px #0002}</style>
+<script>(function(){var q=new URLSearchParams(location.search).get('lang'),l=q||((navigator.language||'de').toLowerCase().indexOf('de')===0?'de':'en');if(l!=='de'&&l!=='en')l='de';var h=document.documentElement;h.dataset.lang=l;h.lang=l;window.setL=function(x){h.dataset.lang=x;h.lang=x}})()</script></head><body><main>
+<header><img src="icon.png" alt=""><a class="home" href="./">Einkaufsheld</a><div class="lang"><button data-set="de" onclick="setL('de')">DE</button><button data-set="en" onclick="setL('en')">EN</button></div></header>
+<div class="hero"><img src="icon.png" alt="Einkaufsheld"><h1>Einkaufsheld</h1>
+<p data-l="de">Dein Wochenplan mit passender Einkaufsliste – für deinen Supermarkt, dein Budget und deinen Geschmack. In 1 Minute geplant.</p>
+<p data-l="en">Your weekly meal plan with a matching shopping list – for your supermarket, budget and taste. Planned in a minute.</p></div>
+<h2><span data-l="de">Support</span><span data-l="en">Support</span></h2><p data-l="de">Fragen oder Probleme? Schreib uns an <a href="mailto:contact@snipai.app">contact@snipai.app</a>. Käufe kannst du in der App unter Konto → „Käufe wiederherstellen“ wiederherstellen.</p>
+<p data-l="en">Questions or problems? Email <a href="mailto:contact@snipai.app">contact@snipai.app</a>. You can restore purchases in the app under Account → "Restore Purchases".</p><footer><a href="impressum.html"><span data-l="de">Impressum</span><span data-l="en">Legal notice</span></a> · <a href="datenschutz.html"><span data-l="de">Datenschutz</span><span data-l="en">Privacy</span></a> · <a href="mailto:contact@snipai.app">contact@snipai.app</a></footer></main></body></html>
